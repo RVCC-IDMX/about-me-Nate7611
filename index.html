@@ -5,7 +5,16 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <title>About Me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Onest&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Everything in the body section is what is shown the the user (With the exception of the comments) -->
@@ -13,9 +22,8 @@
     <header>
       <!-- The header section contains B.O.B and the heading of the website. -->
 
-      <img src="img/logo-96X96.svg" alt="A oragami style bird" width="200px"/>
-      <h1>About Me</h1>
-      <br />
+      <img src="img/logo-96X96.svg" alt="A oragami style bird" width="75px"/>
+      <div class="header">About Me</div>
     </header>
 
     <main>
@@ -26,8 +34,8 @@
 
         <img src="img/avataaars.png" alt="A cartoon avatar of me" width="200px"/>
         <div>
-          <p>Nate Downey</p>
-          <p>Clinton, NJ</p>
+          <h3>Nate Downey</h3>
+          <h3>Clinton, NJ</h3>
         </div>
       </section>
 
@@ -35,13 +43,20 @@
         <div>
           <!-- This section contains a bio about me -->
 
-          <p>I want to...</p>
-          <p>Get better at web development</p>
-          <p>Graduate RVCC in 2025</p>
-          <p>Work with computers as a job</p>
-          <p>Make money</p>
+          <h3 class="listheader">I want to...</h3>
+          <ul>
+            <li>Get better at web development</li>
+            <li>Graduate RVCC in 2025</li>
+            <li>Work with computers as a job</li>
+            <li>Make money</li>
+          </ul>
+          <br>
         </div>
       </section>
     </main>
+
+    <footer>
+      © 2023 - Nate Downey
+    </footer>
   </body>
 </html>

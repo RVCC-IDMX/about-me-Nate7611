@@ -1,0 +1,34 @@
+body {
+    background-color: #00B83A;
+    color: #B30502;
+
+    font-family: "Onest";
+
+    text-align: center;
+}
+
+.header {
+    font-family: "Anton";
+    font-size: xx-large;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Anton";
+    font-size: x-large;
+}
+
+footer {
+    font-family: "Anton";
+    font-size: small;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.listheader {
+    font-family: "Anton";
+    font-size: large;
+}
