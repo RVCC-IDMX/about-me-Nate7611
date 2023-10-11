@@ -27,3 +27,18 @@ ul {
     margin: 0 auto;
     text-align: left;
 }
+
+section.gallery img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.gallery {
+    border: 10px solid #B30502;
+    height: auto;
+    max-width: 100%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
