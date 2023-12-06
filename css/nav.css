@@ -31,6 +31,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logo img {
@@ -41,6 +42,7 @@ body {
 /* navigation list */
 
 .navbar-links li {
+    text-align: center;
     list-style: none;
     display: block;
     padding: 0.5em 0;
@@ -51,9 +53,9 @@ body {
  and then on hover
 */
 
-
 .navbar-links a {
     color: #e2e2e2;
+    background-color: #242424;
     font-size: 1.5rem;
     padding: 1rem 1.25rem;
     letter-spacing: 3px;
@@ -61,6 +63,11 @@ body {
     display: inline-block;
 }
 
+.navbar-links a:hover, .navbar-links a:hover {
+    filter:invert(1);
+    border-radius: 10px;
+    outline: none;
+}
 
 /* 
 media query for non-mobile nav bar
