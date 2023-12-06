@@ -1,20 +1,76 @@
 body {
     background-color: #121212;
-    color: #c9c9c9;
+    color: #e2e2e2;
 
     font-family: "Onest";
 
     text-align: center;
 }
 
-.header {
-    font-family: "Anton";
-    font-size: xx-large;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Anton";
-    font-size: x-large;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+#bio {
+    border: 10px solid #c9c9c9;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #242424;
+}
+
+#bio h1 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#bio h2 {
+    margin-top: 0px;
+}
+
+#goals {
+    width: fit-content;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #c9c9c9;
+    background-color: #242424;
+}
+
+#goals h1 {
+    margin: 15px;
+}
+
+#hobbies {
+    width: fit-content;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #c9c9c9;
+    background-color: #242424;
+}
+
+#hobbies h1 {
+    margin: 15px;
 }
 
 footer {
@@ -43,6 +99,14 @@ article {
     padding: 20px;
 }
 
+#blog {
+    background-color: #242424;
+}
+
+article h1 {
+    margin-top: 0px;
+}
+
 article p {
     max-width: 100%;
     height: auto;
@@ -51,6 +115,7 @@ article p {
 
 #gallery {
     border: 10px solid #c9c9c9;
+    background-color: #242424;
     height: auto;
     max-width: 100%;
     width: fit-content;
@@ -61,6 +126,7 @@ article p {
 
 #video {
     border: 10px solid #c9c9c9;
+    background-color: #242424;
     max-width: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -73,7 +139,7 @@ article p {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; /* Aspect Ratio (height / width * 100%) */
+    padding-top: 56.25%; /* Using this to keep aspect ration of video */
 }
 
 .video-container iframe {
@@ -104,6 +170,9 @@ fieldset {
 
 #contact {
     margin: 2rem auto;
+    width: fit-content;
+    border: 10px solid #c9c9c9;
+    background-color: #242424;
 }
 
 #contact input, #contact textarea, #contact select, #contact button {

@@ -28,7 +28,15 @@ body {
 
 /* logo */
 
+.logo {
+    display: flex;
+    align-items: center;
+}
 
+.logo img {
+    height: 6vw;
+    width: 6vw;
+}
 
 /* navigation list */
 
