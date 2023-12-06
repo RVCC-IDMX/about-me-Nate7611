@@ -17,7 +17,14 @@ body {
 
 /* navbar */
 
-
+.navbar {
+    background-color: #242424;
+    color: #c9c9c9;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 
 /* logo */
 
