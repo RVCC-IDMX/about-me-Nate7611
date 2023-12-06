@@ -19,7 +19,7 @@ body {
 
 .navbar {
     background-color: #242424;
-    color: #c9c9c9;
+    color: #e2e2e2;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -40,6 +40,11 @@ body {
 
 /* navigation list */
 
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+}
 
 /*  
  style all a tags in header 
@@ -47,7 +52,14 @@ body {
 */
 
 
-
+.navbar-links a {
+    color: #e2e2e2;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
 
 
 /* 
