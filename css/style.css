@@ -1,6 +1,6 @@
 body {
-    background-color: #00B83A;
-    color: #B30502;
+    background-color: #121212;
+    color: #c9c9c9;
 
     font-family: "Onest";
 
@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 footer {
     font-family: "Anton";
     font-size: medium;
+    padding: 15px;
+    background-color: #242424;
 }
 
 ul {
@@ -28,17 +30,16 @@ ul {
     text-align: left;
 }
 
-section.gallery img {
-    max-width: 100%;
+section#gallery img {
     height: auto;
-    width: auto;
+    width: 100%;
 }
 
 article {
-    border: 10px solid #B30502;
+    border: 10px solid #c9c9c9;
     width: fit-content;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: auto;
+    margin-top: 30px;
     padding: 20px;
 }
 
@@ -48,22 +49,136 @@ article p {
     width: auto;
 }
 
-.gallery {
-    border: 10px solid #B30502;
+#gallery {
+    border: 10px solid #c9c9c9;
     height: auto;
     max-width: 100%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#video {
+    border: 10px solid #c9c9c9;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* Aspect Ratio (height / width * 100%) */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+fieldset {
+    border: 10px solid #c9c9c9;
+    max-width: 50%;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
 
-#video {
-    border: 10px solid #B30502;
-    height: auto;
-    max-width: 100%;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+.drop-cap {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#formElements {
+    display: grid;
+    row-gap: 0.5em;
+}
+
+#contact {
+    margin: 2rem auto;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+fieldset {
+    border: 5px solid #c9c9c9;
+}
+
+@media screen and (min-width: 60em) {
+
+    #formElements {
+        width: 600px;
+    }
+
+    figure {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .grid-border {
+        padding-left: 10px;
+        border-left: 1px solid #c9c9c9;
+    }
+
+    figcaption {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    
+    article p {
+        max-width: 100%;
+        columns: 40rem 2;
+    }
+}
+
+@media screen and (min-width: 100em) {
+    #formElements {
+        width: 800px;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+    }
+
+    figcaption {
+        align-self: center;
+    }
+
+    .gallery-grid hr {
+        display: none;
+    }
+
+    .grid-border {
+        border-left: 0px solid #c9c9c9;
+    }
+
+    .gallery-grid div:not(:last-child) {
+        border-right: 1px solid #c9c9c9;
+        margin-bottom: 5px;
+    }
+
+    figure img {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #c9c9c9;
+    }
 }
