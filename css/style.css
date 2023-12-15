@@ -98,6 +98,10 @@ footer {
     background-color: #242424;
 }
 
+footer a {
+    color: #e2e2e2;
+}
+
 ul {
     display: table;
     margin: 0 auto;
