@@ -20,6 +20,14 @@ For the borders I used a slightly darker color from the text: `#c9c9c9`
 
 For the background of Sections I used a lighter shade of the background: `#242424`
 
+## Citations
+
+How to embed Google Map without API Key? - https://dev.to/hardiquedasore/how-to-embed-google-map-without-api-key-1ii7
+
+How to Embed Google Maps in your Website Responsively and Lazily - https://www.labnol.org/internet/embed-responsive-google-maps/28333/
+
+How to Embed Google Map in HTML [Step-By-Step Guide] - https://blog.hubspot.com/website/how-to-embed-google-map-in-html
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

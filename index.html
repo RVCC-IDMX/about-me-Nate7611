@@ -5,10 +5,20 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- The main css for my website -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- The navbar css for my website -->
     <link href="css/nav.css" rel="stylesheet" type="text/css" />
+
+    <!-- Linking the javascript for the navbar-->
+    <script src="js/script.js" defer></script>
+
+    <!-- The name for my website -->
     <title>About Me</title>
 
+    <!-- Fonts imported from google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -16,6 +26,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Onest&display=swap" rel="stylesheet">
+
+    <!-- The favicon for my website -->
+    <link rel="icon" type="image/png" sizes="96x96" href="img/android-icon-96x96.png">
   </head>
   <body>
     <!-- Everything in the body section is what is shown the the user (With the exception of the comments) -->
@@ -27,8 +40,16 @@
 
       <nav class="navbar">
         <div class="logo">
-          <img src="img/logo-96X96.svg" alt="A oragami style bird" width="75px"/>
+          <!-- The logo for my website -->
+          <img src="img/logo.svg" alt="The letters N and D" width="75px"/>
           <h1>About Me</h1>
+
+          <!-- This is used to make the three lined hamburger menu -->
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </div>
 
         <div class="navbar-links">
@@ -50,7 +71,7 @@
       <section id="bio">
         <!-- This section contains my avatar and a little bit about me -->
 
-        <img src="img/avataaars.png" alt="A cartoon avatar of me" width="200px"/>
+        <img src="img/portrait.png" alt="An image of me at high school graduation" width="200px"/>
         <div>
           <h1>Nate Downey</h1>
 
@@ -58,7 +79,7 @@
 
           <hr>
           
-          <p>I'm currently a college student in the IDMX program looking to transfer to a 4 year college after RVCC.</p>
+          <p>I'm an 18 year old college student currently enrolled at Raritan Valley Community College. I am in the IDMX program looking to transfer to a 4 year college after RVCC. I started using computers at a very young age and have been hooked ever since. I enjoy a vast range of activities on computers such as playing games, programming, 3D Modeling, animation, and much more. I chose to do the IDMX program as Web Development has always been an intrest to me and I think I would enjoy it as a career. I still very much consider myself a beginner and am looking forward to learning much more. This website was done as a project for Web Development 1 and taught the basics of HTML and CSS to me.</p>
         </div>
       </section>
 
@@ -67,6 +88,9 @@
           <!-- This section contains a bio about me -->
 
           <h1>I want to...</h1>
+
+          <hr>
+
           <ul>
             <li>Get better at web development</li>
             <li>Graduate RVCC in 2025</li>
@@ -77,20 +101,27 @@
       </section>
 
       <section id="hobbies">
+        <!-- This section contains some of my hobbies with brief info about each one -->
+
         <h1>My Hobbies:</h1>
 
+        <hr>
+
         <ul>
-          <li>Playing Games</li>
-          <li>Programming</li>
-          <li>Drone Photography</li>
-          <li>Drone Videography</li>
-          <li>Building/ Tinkering with Computers</li>
-          <li>etc.</li>
+          <li><b>Playing Games</b> - Mainly play on PC, but I do have a PS5. Right now, I'm not playing much.</li>
+          <li><b>Programming</b> - I currently know C#, HTML, CSS, and JavaScript.</li>
+          <li><b>Drone Photography</b> - My current drone is the DJI Air 2S.</li>
+          <li><b>Drone Videography</b> - ^</li>
+          <li><b>Building/ Tinkering with Computers</b> - My current computer has a I7-12700k, 64GB of DDR5 Ram, and a RTX 2060 Super.</li>
+          <li><b>3D Modeling</b> - Not the best at it but I do enjoy doing it. I use Blender for everything.</li>
+          <li><b>Animation</b> - ^</li>
         </ul>
       </section>
 
       <section id="gallery">
-        <h1>Photo Gallery</h1>
+        <!-- This section contains some three pictures of one my drone hobbie -->
+
+        <h1>Drone Showcase</h1>
 
         <hr>
 
@@ -99,7 +130,7 @@
           <div>
             <figure>
                 <img src="img/drone-flying-640w.jpg" alt="DJI Air 2s drone flying with the controller and phone in view">
-                <figcaption class="grid-border">I use the DJI Air 2s Drone</figcaption>
+                <figcaption class="grid-border">I use the DJI Air 2S Drone</figcaption>
             </figure>
             <hr>
           </div>
@@ -123,14 +154,56 @@
     </section>
 
       <article id="blog">
-        <h1>Dracula</h1>
+        <!-- This article gives the reader a step by step process on how to embed a google map onto their website using iframe -->
+
+        <h1>Embedding Google maps using iFrame</h1>
+        
+        <hr>
+
         <div>
-          <p><span class="drop-cap">2</span>9 July.--Another tragedy. Had single watch to-night, as crew too tired to double. When morning watch came on deck could find no one except steersman. Raised outcry, and all came on deck. Thorough search, but no one found. Are now without second mate, and crew in a panic. Mate and I agreed to go armed henceforth and wait for any sign of cause. 30 July.--Last night. Rejoiced we are nearing England. Weather fine, all sails set. Retired worn out; slept soundly; awaked by mate telling me that both man of watch and steersman missing. Only self and mate and two hands left to work ship. 1 August.--Two days of fog, and not a sail sighted. Had hoped when in the English Channel to be able to signal for help or get in somewhere. Not having power to work sails, have to run before wind. Dare not lower, as could not raise them again. We seem to be drifting to some terrible doom. Mate now more demoralised than either of men. His stronger nature seems to have worked inwardly against himself. Men are beyond fear, working stolidly and patiently, with minds made up to worst. They are Russian, he Roumanian. 2 August, midnight.--Woke up from few minutes' sleep by hearing a cry, seemingly outside my port. Could see nothing in fog. Rushed on deck, and ran against mate. Tells me heard cry and ran, but no sign of man on watch. One more gone. Lord, help us! Mate says we must be past Straits of Dover, as in a moment of fog lifting he saw North Foreland, just as he heard the man cry out. If so we are now off in the North Sea, and only God can guide us in the fog, which seems to move with us; and God seems to have deserted us. 3 August.--At midnight I went to relieve the man at the wheel, and when I got to it found no one there. The wind was steady, and as we ran before it there was no yawing. I dared not leave it, so shouted for the mate. After a few seconds he rushed up on deck in his flannels. He looked wild-eyed and haggard, and I greatly fear his reason has given way. He came close to me and whispered hoarsely, with his mouth to my ear, as though fearing the very air might hear: "It is here; I know it, now. On the watch last night I saw It, like a man, tall and thin, and ghastly pale. It was in the bows, and looking out. I crept behind It, and gave It my knife; but the knife went through It, empty as the air." And as he spoke he took his knife and drove it savagely into space. Then he went on: "But It is here, and I'll find It. It is in the hold, perhaps in one of those boxes. I'll unscrew them one by one and see. You work the helm." And, with a warning look and his finger on his lip, he went below. There was springing up a choppy wind, and I could not leave the helm. I saw him come out on deck again with a tool-chest and a lantern, and go down the forward hatchway. He is mad, stark, raving mad, and it's no use my trying to stop him. He can't hurt those big boxes: they are invoiced as "clay," and to pull them about is as harmless a thing as he can do. So here I stay, and mind the helm, and write these notes. I can only trust in God and wait till the fog clears. Then, if I can't steer to any harbour with the wind that is, I shall cut down sails and lie by, and signal for help....</p>
+          <p><span class="drop-cap">E</span>mbedding a Google Map onto your website is super easy to do. I will explain how you can do it for your own website!</p>
+
+          <h2>Disclaimer</h2>
+          <p>You are embedding content from Google onto your website and since this is not your content, it can change at anytime without notice. This also means that if Google Maps goes down, so does the map on your website. While this isnt a issue for most as it is extremely rare for Google Maps to go down and also the chances of Google Maps being shut down anytimes soon is near non-existent, it is still something to be aware of. But also, there really arent any good alternatives.</p>
+
+          <h2>Step 1: Open Google Maps</h2>
+          <p>Google Maps serves as the cornerstone for this process. Open your web browser and navigate to <a href="https://www.google.com/maps" target="_blank">Google Maps</a>. This is where you'll locate the specific address or location you want to showcase on your website.</p>
+
+          <h2>Step 2: Locate Your Desired Location</h2>
+          <p>In the Google Maps interface, use the search bar to enter the address or location you wish to feature on your website. For this example, I will use RVCC. Once you've found your desired location, click on the "Share" button, this should be an icon resembling a chain link. Clicking on "Share" will reveal a set of sharing options, among which is the "Embed a map" feature. Click on this option to access the customization and embedding settings.</p>
+
+          <img src="img/google-maps-share.png">
+
+          <h2>Step 3: Customize Map Size and Copy Embed Code</h2>
+          <p>Now that you've selected "Embed a map," Google Maps provides you with the flexibility to customize the size of the map according to your website's layout. You are able to chose between small, medium, large, or even custom. Once you've tailored the map size to your liking, copy the HTML code snippet provided in the "Embed map" section. This code encapsulates the configuration you've chosen, including the size and location details.</p>
+
+          <img src="img/google-maps-copy.png">
+
+          <h2>Step 4: Paste Code into Your Website</h2>
+          <p>With the embed code copied to your clipboard, open the HTML file of the webpage where you want the Google Map to appear. This could be the contact page of your business website or an events page for a specific venue. Navigate to the section of your HTML file where you want the map, and paste the copied &lt;iframe&gt; code. The &lt;iframe&gt; tag is a versatile HTML element used for embedding content from other sources, in this case, the Google Map. Adjust the width and height attributes within the &lt;iframe&gt; tag to ensure the map fits well into your website's design.</p>
+
+          <img src="img/google-maps-html.png">
+
+          <h2>Step 4: Making it responsive</h2>
+          <p>If we just paste the code into our website, it wont scale down and will cause overflow if viewed on a screen too small. We want to avoid this, and luckily it is very simple. First I put the map in a div with the class google-maps. I centered the div with margin: 0 auto; and then selected the div's iframe with .google-maps iframe. Finally all you have to do to make it scale down properly is to set the max-width to 100%.</p>
+
+          <img src="img/google-maps-css.png">
+
+          <h2>Results</h2>
+          <p>Here is how our embeded Google Map will look.</p>
+
+          <div class="google-maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.901322601829!2d-74.69076152273689!3d40.610000743851714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3937dc5acab1f%3A0x15e7f0de30681faa!2sRaritan%20Valley%20Community%20College!5e0!3m2!1sen!2sus!4v1702671106760!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
       </article>
 
       <section id="video">
+      <!-- This section contains a short minute long video I made -->
+
         <h1>A Short Video</h1>
+
+        <hr>
 
         <div class="video-container">
           <iframe src="https://www.youtube.com/embed/18n_vu8Hghc?si=xVXj-fVw0pdJvUTq" 
@@ -141,10 +214,13 @@
           </iframe>
         </div>
 
+        <hr>
+
         <p>A Very Cool Short Story</p>
       </section>
 
       <section id="contact">
+        <!-- This section contains a contact form where users can send info to me, the backend is handeled by netlify -->
         <h1>Contact</h1>
 
         <form id="contantForm" name="contactForms" method="post" data-netlify="true">
@@ -204,6 +280,7 @@
         </form>
       </section>
 
+      <!-- This button retuns to the top of the screen -->
       <div id="return">
         <a href="#top">Return To Top</a>
       </div>
